@@ -14,7 +14,7 @@ def runProgram():
     entryKey2.get()
     entryKey3.get()
     sleep(5)
-    b=True
+    runningStatus = True
     add_hotkey("esc", exitLoopEvent)
     while runningStatus:
         write(entryKey1.get()+entryKey2.get(),0.1)
